@@ -178,7 +178,7 @@ const Contact = () => {
             style={{ height: "400px" }}
           >
             <iframe
-              title="Sahjanand Steel Furniture Location" // ये लाइन जोड़ दी, अब वार्निंग हट जाएगी
+              title="Sahjanand Steel Furniture Location" 
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.665799309!2d72.915720!3d22.554289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e4f4f0c000001%3A0x67347a868a83d98!2sSAHJANAND%20STEEL%20FURNITURE!5e0!3m2!1sen!2sin!4v1709630000000!5m2!1sen!2sin"
               width="100%"
               height="100%"
