@@ -31,9 +31,9 @@ const Navbar = () => {
           {isOpen ? (
             <span className="fs-1" style={{ lineHeight: 0 }}>
               ×
-            </span> /* X icon when open */
+            </span> 
           ) : (
-            <span className="navbar-toggler-icon"></span> /* 3 lines when closed */
+            <span className="navbar-toggler-icon"></span> 
           )}
         </button>
 
