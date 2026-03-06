@@ -1,0 +1,59 @@
+.services-hero {
+
+  background: linear-gradient(rgba(44, 83, 100, 0.9), rgba(44, 83, 100, 0.9)), 
+              url('https://sahjanandsteel.com/assets/img/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  border-bottom: 5px solid #bdc3c7; 
+}
+
+.services-hero h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: white; 
+}
+
+.services-hero p {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.2rem;
+}
+
+.service-img-wrapper {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .service-img-wrapper {
+    height: 180px;
+  }
+}
+
+.service-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease-in-out; 
+}
+
+.service-card-hover:hover .service-img-wrapper img {
+  transform: scale(1.15); 
+}
+
+.service-card-hover {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 12px;
+}
+
+.service-card-hover:hover {
+  box-shadow: 0 15px 35px rgba(44, 83, 100, 0.2) !important;
+}
